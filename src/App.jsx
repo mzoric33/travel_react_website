@@ -7,6 +7,7 @@ import Cards from "./components/Cards";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <HeroSection></HeroSection>
         <Cards />
+        <Footer />
         <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
